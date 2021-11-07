@@ -53,3 +53,10 @@
 .cell-fail{
   border: 3px solid red;
 }
+
+@media (max-width: 700px){
+  .game-container{
+  width: 80vw;
+  height: 45vh;
+}
+}
