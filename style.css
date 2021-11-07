@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.game-info-container{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  gap: 12px;
+}
+
+.game-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.winner-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container{
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.celda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  border: 1px solid black;
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.cell-fail{
+  border: 3px solid red;
+}

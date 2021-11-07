@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tricky Game</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="game-info-container">
+        <div class="game-info">
+          <div name="turno">
+            <strong>Turno de</strong>
+            <span></span>
+          </div>
+          <div name="ronda">
+            <strong>Ronda</strong>
+            <span></span>
+          </div>
+        </div>
+        <div class="winner-info" visibility="hidden">
+          <span></span>
+        </div>
+      </div>
+      <div class="game-container">
+        <div class="celda" value="0"></div>
+        <div class="celda" value="1"></div>
+        <div class="celda" value="2"></div>
+        <div class="celda" value="3"></div>
+        <div class="celda" value="4"></div>
+        <div class="celda" value="5"></div>
+        <div class="celda" value="6"></div>
+        <div class="celda" value="7"></div>
+        <div class="celda" value="8"></div>
+      </div>
+      <div class="game-control-container">
+        <button name="reset">Reset</button>
+        <button name="next">Next</button>
+      </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
